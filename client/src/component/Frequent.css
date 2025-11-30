@@ -1,0 +1,87 @@
+/* src/Frequent.css */
+
+/* Container for the card grid */
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 columns */
+    gap: 20px; /* Space between cards */
+    margin-top: 20px; /* Space above the grid */
+  }
+  
+  /* Card styling */
+  .card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+  }
+  
+  /* Card title styling */
+  .card-title {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+  }
+  
+  /* Tag styling */
+  .tags {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .tag {
+    background-color: #e0e0e0;
+    border-radius: 12px;
+    color: #333;
+    padding: 5px 10px;
+    margin: 5px;
+    font-size: 0.9em;
+  }
+  
+  /* Loading text styling */
+  .loading {
+    text-align: center;
+    font-size: 1.5em;
+    margin-top: 20%;
+  }
+  
+  /* Form styling */
+  .cutoff-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .cutoff-form label {
+    margin-bottom: 10px;
+  }
+  
+  .cutoff-form input {
+    margin-right: 10px;
+    padding: 5px;
+    width: 200px;
+  }
+  
+  .cutoff-form button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  .cutoff-form button:hover {
+    background-color: #45a049;
+  }
+  
+  .no-data {
+    text-align: center;
+    font-size: 1.2em;
+    color: #777;
+  }
+  
